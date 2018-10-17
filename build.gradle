@@ -72,7 +72,7 @@ ospackage {
   signingKeyId = "${ARTIFACTORY_GPG_KEY_ID}"
   signingKeyPassphrase = "${ARTIFACTORY_GPG}"
   signingKeyRingFile = new File("${ARTIFACTORY_GPG_KEY}")
-  signatureSize = 543
+  signingKeySignatureSize = 543
 }
 
 def timestamp = new Date().format('yyyyMMddHHmmss')
